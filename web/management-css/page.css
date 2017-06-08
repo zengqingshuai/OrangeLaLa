@@ -1,0 +1,19 @@
+.page a{
+    display: inline-block;
+    padding: 3px;
+    line-height: 20px;
+    min-width: 20px;
+    margin: 0 5px;
+    border: 1px solid oldlace;
+    text-decoration: none;
+}
+.page a:hover{
+    background-color: aqua;
+}
+.page span{
+    display: inline-block;
+    padding: 3px;
+    line-height: 20px;
+    min-width: 20px;
+    margin: 0 5px;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+    <!-- JNDI String -->
+    <Environment name="name" value="JNDI配置" type="java.lang.String"/>
+    <!-- JNDI jdbc mysql -->
+    <Resource
+            name="mysql"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxActive="300"
+            maxTotal="-1"
+            maxIdle="60"
+            maxWait="2000"
+            username="root"
+            password="root"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/orange?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=true">
+    </Resource>
+</Context>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>404</title>
+    <style>
+        h1 {
+            margin-top: 50px;
+            color: brown;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>页面建设中...</h1>
+<h1 style=color:red>找不到该页面！<span id=jump></span> 秒钟后页面将自动返回首页...</h1>
+<h1><a href="javascript:void(0);" onclick="jumpToIndex()">点击此处立即跳转至首页</a></h1>
+<script>
+    function countDown(count) {
+        var jump=document.getElementById("jump");
+        jump.innerText = count;
+        if (count == 0) {
+            location.href = "/home/index.jsp";
+        }
+        count = count - 1;
+        if (count >= 0) {
+            setTimeout("countDown(" + count + " )", 1000);
+        }
+    }
+    countDown(3);
+    function jumpToIndex() {
+        location.href = "/home/index.jsp";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/*/头部*/
+header{
+    width: 980px;
+    height: 100px;
+    margin-left: 180px;
+}
+header .top_bottom{
+    float: left;
+    margin-top:-55px ;
+    margin-left: 165px;
+}
+header .button{
+    width: 90px;
+    height: 35px;
+    letter-spacing: 10px;
+    color: green;
+    font-size: 20px;
+}
+header .button1{
+    width: 120px;
+    height: 35px;
+    color: green;
+    font-size: 20px;
+}
+header .top_bottom ul {
+    list-style: none;
+    float: left;
+}
+header .top_bottom ul li{
+    float: left;
+    margin-left: 10px;
+}
+header .top_bottom2{
+    float: left;
+    width: 960px;
+    height: 30px;
+    background-color: orange;
+    margin-top: -10px;
+}
+.top_bottom2_right {
+    width: 600px;
+    float: left;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-left:400px;
+    color:black;
+}
+.main_center_right table tr:hover {
+    background-color: rgba(0, 255, 137, 0.81);
+}

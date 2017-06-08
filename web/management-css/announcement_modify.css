@@ -1,0 +1,172 @@
+/*/头部*/
+header{
+    width: 1027px;
+    height: 100px;
+    margin-left: 200px;
+}
+.top_bottom{
+    float: left;
+    margin-top:-55px ;
+    margin-left: 185px;
+}
+.button{
+    width: 90px;
+    height: 35px;
+    letter-spacing: 10px;
+    color: green;
+    font-size: 20px;
+}
+.button1{
+    width: 120px;
+    height: 35px;
+    color: green;
+    font-size: 20px;
+}
+.top_bottom ul {
+    list-style: none;
+    float: left;
+}
+.top_bottom ul li{
+    float: left;
+    margin-left: 10px;
+}
+.top_bottom2{
+    float: left;
+    width: 1026px;
+    height: 30px;
+    background-color: orange;
+    margin-top: -10px;
+}
+.top_bottom2_right {
+    float: left;
+    font-size: 12px;
+    margin-top: 8px;
+
+    margin-left:480px;
+    color:white;
+}
+/*主体*/
+main{
+    float: left;
+    width: 1027px;
+    height: 380px;
+
+    margin-left: 200px;
+}
+/*左上*/
+.main_top_left{
+    float: left;
+    margin-left: 30px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+/*.main_top_left a{*/
+    /*color: hotpink;*/
+    /*text-decoration: none;*/
+/*}*/
+/*.main_top_left a:hover{*/
+    /*color: black;*/
+    /*text-decoration: underline;*/
+/*}*/
+.main_left{
+    width: 185px;
+    height: 360px;
+    border: 1px solid gainsboro;
+    margin-left:30px ;
+    margin-top: 40px;
+}
+.main_left dd{
+    font-size: 12px;
+    line-height: 20px;
+}
+.dd1{
+    margin-left:-25px;
+}
+.dd2{
+    margin-top: -15px;
+    margin-left: 160px;
+}
+.main_center_left{
+    float: left;
+    margin-top: -330px;
+    margin-left: 217px;
+}
+main .main_center_left .line{
+    border: 2px solid orangered;
+    width: 810px;
+
+}
+/*修改部分*/
+.min_center_right{
+    float: left;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.main_center_right2{
+    float: left;
+    margin-top:15px ;
+    margin-left: 105px;
+}
+.main_center_right2_1{
+    float: left;
+    margin-left:10px ;
+    margin-top: 50px;
+}
+.main_center_right3{
+    float: left;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+
+/*底部*/
+footer{
+    float: left;
+    width: 990px;
+    height: 230px;
+
+    margin-left: 200px;
+}
+.footer_top{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+.footer_center  .p1{
+    font-size: 12px;
+    float: left;
+    margin-left: 220px;
+    margin-top: -5px;
+}
+.footer_center .p2{
+    font-size: 12px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 340px;
+}
+.footer_center .p3{
+    font-size: 12px;
+    float: left;
+    margin-top: 8px;
+    margin-left: -200px;
+
+}
+.footer_center .p4{
+    font-size: 12px;
+    float: left;
+    margin-top: 10px;
+    margin-left: -350px;
+}
+.footer_center .p5{
+    float: left;
+    margin-top: 30px;
+    margin-left: -290px;
+}
+
+a{
+    color: orange;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}

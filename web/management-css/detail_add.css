@@ -1,0 +1,89 @@
+
+
+/*主体*/
+main {
+    float: left;
+    width: 980px;
+    height: 400px;
+    margin-left: 180px;
+}
+
+/*左上*/
+.main_top_left {
+    float: left;
+    margin-left: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 900px;
+}
+
+/*主体——————左部*/
+main .main_left {
+    float: left;
+    width: 205px;
+    height: 380px;
+}
+
+main .main_left ul {
+    float: left;
+    list-style: none;
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 0 0 0 2px;
+    border: #8c8c8c 1px solid;
+    border-radius:7px
+}
+
+main .main_left ul li {
+    padding: 3px 0 3px 0;
+}
+
+main .main_li-1 {
+    height: 20px;
+    line-height: 20px;
+    font-weight: bolder;
+    background-color: #f0f4ed;
+}
+
+main .main_li-2 {
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+}
+
+main .main_left ul span {
+    line-height: 25px;
+    float: right;
+    margin-right: 10px;
+}
+
+.main_center_left {
+    float: left;
+    width: 730px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+main .main_center_left .line {
+    border: 2px solid orangered;
+    width: 730px;
+}
+.main-right-footer {
+    width: 620px;
+    height: 160px;
+    margin-left: 40px;
+}
+.main-right-footer td{
+    height: 30px;
+}
+main .main-right-footer .main-right-footer-1{
+    text-align: right;
+}
+.submit-button{
+    cursor: pointer;
+    border: 0; /*去边框*/
+    width: 80px; /*宽*/
+    height: 34px;/*高*/
+    background-image: url("../management-css/images/submit.gif");
+}

@@ -1,0 +1,55 @@
+/*主体*/
+main{
+    width: 980px;
+    height: 343px;
+    margin-top: 35px;
+    margin-left: 180px;
+}
+/*左上*/
+.main_top_left{
+    float: left;
+    margin-left: 60px;
+    font-size: 14px;
+}
+.main_center_left{
+    width: 779px;
+    height: 289px;
+    margin-left: 60px;
+    float: left;
+}
+main .main_center_left .line{
+    border: 2px solid orangered;
+    width: 810px;
+}
+.main_center{
+    float:left;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 320px;
+}
+.main_center_1{
+    float: left;
+    margin-left:220px ;
+}
+.main_center_1 ul li{
+    line-height: 30px;
+}
+.main_center_1 ul{
+    list-style: none;
+}
+
+#center_5{
+    margin-left: -15px;
+}
+#center_6{
+    margin-left: -65px;
+}
+#center_7{
+    margin-left: -15px;
+}
+.main_center_bottom{
+    float: left;
+    margin-left: 55px;
+    margin-top:10px;
+}

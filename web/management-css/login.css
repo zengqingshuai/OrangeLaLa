@@ -1,0 +1,75 @@
+/*主体*/
+main {
+    width: 980px;
+    height: 340px;
+    margin-top: 35px;
+    margin-left: 180px;
+}
+
+/*左上*/
+.main_top_left {
+    float: left;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.main_center_left {
+    width: 780px;
+    height: 290px;
+    margin-left: 60px;
+    float: left;
+}
+
+main .main_center_left .line {
+    border: 2px solid orangered;
+    width: 810px;
+}
+
+.main_center {
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.main_center_1 {
+    float: left;
+    margin-left: 220px;
+    margin-top: 10px;
+    width: 600px;
+    height: 100px;
+}
+
+.main_center_1 ul li {
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+    width: 360px;
+}
+
+.main_center_1 ul {
+    list-style: none;
+}
+
+.main_center_1 span {
+    color: red;
+}
+
+
+.main_center3 {
+    float: left;
+    margin-left: 320px;
+}
+
+.main_center4 {
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.login_submit{
+    border: 0; /*去边框*/
+    width: 80px; /*宽*/
+    height: 34px;/*高*/
+    background-image:url(images/login.gif);/*背景图片*/
+}
